@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+/*HEADER*/
+header {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+
+button {
+    background-color: #da1c4b;
+    border-radius: 60px;
+    width: 170px;
+    height: 45px;
+    border-style: none;
+    color: white;
+}
+
+.backimg-overlay {
+    background-image: url(/images/hero-bg.jpg);
+    filter: brightness(.65)
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+ul {
+    display: flex;    
+    list-style-type: none;
+    margin-top: 0em;
+    margin-right: 3em;
+    align-items: center;
+}
+li{
+    padding: 0em 1em;
+}
+
+header h1{
+    display: flex;
+    margin-left: 3em;
+}
+header h3{
+    margin-left: 6.4em;
+}
+/*MAIN*/
+
+.text1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-content: center;
+}
+.text1 h2{
+    color: white;
+}
+.text1 h1{
+    color: white;
+}
+
+/*TEST 2*/
+
+.backimg{
+    background-image: url(/images/hero-bg.jpg);
+    background-attachment: fixed;
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.backimgOpac{
+    height: 100%;
+    opacity: .65;
+    background-color: #191919;
+    
+}
+/*HEADER*/
+header {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+
+button {
+    background-color: #da1c4b;
+    border-radius: 60px;
+    width: 170px;
+    height: 45px;
+    border-style: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0em;
+    margin-right: 3em;
+    align-items: center;
+}
+
+li {
+    padding: 0em 1em;
+}
+
+header h1 {
+    display: flex;
+    margin-left: 3em;
+}
+
+header h3 {
+    margin-left: 6.4em;
+}
+/*FOOTER*/
+
+footer{
+    background-color: #191919;
+    color: white;
+}

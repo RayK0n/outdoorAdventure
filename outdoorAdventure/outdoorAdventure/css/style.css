@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backimg {
+    background-image: url(../images/hero-bg.jpg);
+    background-attachment: fixed;
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.backimgOpac {
+    height: 100%;
+    opacity: .65;
+    background-color: #191919;
+
+}
+
+/*HEADER*/
+#navBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navBar img {
+    margin-left: 310px;
+    padding: 13px 50px;
+    width: 150px;
+    height: 42px;
+}
+
+header {
+    display: block;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+
+}
+
+button {
+    background-color: #FB2056;
+    border-radius: 60px;
+    width: 172px;
+    height: 46px;
+    border-style: none;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+    margin-left: 380px;
+    align-items: center;
+}
+
+li {
+    padding: 0em 1em;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.textHeader {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 219px;
+    font-family: 'Montserrat';
+}
+
+#redline {
+    background-color: #FB2056;
+    width: 3.3%;
+    height: 2px;
+    margin: 24px 0px;
+}
+
+.textHeader button {
+    margin-top: 50px;
+}
+
+.textHeader h1 {
+    font-size: 64px;
+}
+
+.textHeader h3 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+.banner{
+    background-color: #F5F5F5;
+    font-family: 'Noto Sans';
+    display: flex;
+    padding: 58px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.banner p:nth-child(1) {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.banner p:nth-child(2) {
+    font-size: 16px;
+}
+.banner img{
+    width: 94.5px;
+    height: 72.41px;
+}
+.textBanner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 84px;
+    margin-right: 240px;
+}
+.events{
+    background-color: white;
+    font-family: 'Noto Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    position: relative;
+}
+.events h3{
+    font-family: 'Montserrat';
+    font-size: 34px;
+}
+.events #redline{
+    width: 4.7%;
+    height: 3px;
+}
+.events .block1 h1{
+    font-size: 18px;
+    font:bold;
+}
+
+.events .block1 p{
+    font-size: 14px;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
